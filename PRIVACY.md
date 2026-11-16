@@ -39,11 +39,11 @@ This data stays in the app's private storage. You can remove it at any time:
 | **Approximate location** (`ACCESS_COARSE_LOCATION`), optional | Only for the Weather widget, and only if you allow it. See "Weather" below. |
 | **Internet** (`INTERNET`) | Weather data and Google Play purchases. |
 | **Notification access**, optional, granted in system settings | Only to show the red badge numbers on app icons. The app reads which app a notification belongs to and how many there are. It does **not** read, store or send notification titles or text, and counts are kept in memory only. |
-| **Storage / All files access** (`READ_EXTERNAL_STORAGE`, `MANAGE_EXTERNAL_STORAGE`), optional | Only to read your current wallpaper image so the glass effect can blur it. No other files are read. |
+| **Storage** (`READ_EXTERNAL_STORAGE`, Android 12 and older only), optional | Only to read your current wallpaper image so the glass effect can blur it. No other files are read. |
 | **Request app removal** (`REQUEST_DELETE_PACKAGES`) | Opens Android's own uninstall screen when you choose "Delete App". |
 | **Photo picker** | Only the photos you pick (for custom icons or the Photo widget) are copied into the app. No other photos are accessed. |
 
-You can turn off location, notification access and file access at any time in Android Settings. The rest of the app keeps working.
+You can turn off location, notification access and storage access at any time in Android Settings. The rest of the app keeps working.
 
 ## Weather
 
