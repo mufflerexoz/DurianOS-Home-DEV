@@ -45,6 +45,9 @@ DurianOS Home is a home screen (launcher) for Android with the look and feel of 
 |---|---|
 | ![](screenshots/folder.jpg) | ![](screenshots/widgets.jpg) |
 
+## Demo video
+[Watch: how DurianOS Home uses the installed-apps list (QUERY_ALL_PACKAGES)](video/DurianOS-Home-QUERY_ALL_PACKAGES-demo.mp4) (83 s)
+
 ## Privacy
 No account, no ads, no tracking. Your layout and settings stay on your phone. See the [Privacy Policy](PRIVACY.md).
 
